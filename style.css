@@ -1,0 +1,402 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.p1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.thebruery.com/cdn/shop/files/Banner_Summer_Sale_reduced_1500x.png?v=1718292987);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1>button{
+    height: 8vh;
+    width: 40vh;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    top: 85%;
+    left: 41%;
+    background-color: #E5BE8F;
+    border-radius: 10px;
+}
+.nav{
+    height: 25vh;
+    width: 100%;
+   
+    /* overflow-x: hidden; */
+}
+.nav1{
+    height: 5vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+.nav1>p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+
+}
+.nav2{
+    height: 5vh;
+    width: 100%;
+    background-color: #beb3b1;
+    padding: 0 10vh;
+    /* gap: vh; */
+}
+.nav2>button{
+    height: 5vh;
+    width: 15vh;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    /* border: 0.2vh solid grey; */
+    background-color: #beb3b1;
+}
+.nav2>button:hover{
+    background-color: #fff;
+}
+.nav3{
+    height: 15vh;
+    width: 100%;
+    padding: 0 10vh;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav3>img{
+    height: 10vh;
+    width: 20vh;
+}
+.dropbtn {
+    /* background-color: #6a1a1a; */
+    color: rgb(0, 0, 0);
+    height: 8vh;
+    width: 11vh;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d8d5d5;
+    width: 100vh;
+    height: 60vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content li{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content li:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #787a78;
+  }
+.ri-search-line{
+    font-size: 1.5rem;
+}
+.ri-shopping-cart-2-line{
+    font-size: 1.5rem;
+}
+.A-login{
+    height: 7vh;
+    width: 35vh;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
+.p2{
+    height: 120vh;
+    width: 100%;
+    background-color:#FAF6F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 3vh; */
+    padding: 0vh 10vh;
+}
+.p2-box{
+    height: 65vh;
+    width: 44vw;
+    background-image: url(https://www.thebruery.com/cdn/shop/files/16_Anni_2024Banner_WaxSeal_3x2_725d48cf-7451-4f63-a9eb-f16b2499bc04_600x.png?v=1707231670);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p2-box1{
+    height: 65vh;
+    width: 44vw;
+    background-image: url(https://www.thebruery.com/cdn/shop/files/ArchiveHero_5x7_for_mobile_1000x.jpg?v=1708348868);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p2-cont{
+    height: 40vh;
+    width: 44vw;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5vh;
+}
+.p2-cont>h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    position: relative;
+    top: -9%;
+}
+.p2-cont>p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+    top: -7%;
+}
+.p2-cont>button{
+    height: 8vh;
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 2%;
+}
+
+.p3{
+    height: 100vh;
+    width: 100%;
+    background-color:#FAF6F0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 10vh;
+}
+.p3-img{
+    height: 90vh;
+    width: 45vw;
+    background-image: url(https://www.thebruery.com/cdn/shop/files/TheOrder_2024_TheBruery_01_1x1_shopify_1600x.jpg?v=1710182437);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.p3-cont{
+    height: 90vh;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5vh;
+    line-height: 8vh;
+}
+.p3-cont>h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+  
+   
+}
+.p3-cont>h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+.p3-cont>p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 6vh;
+    text-align: center;
+}
+.p3-cont>button{
+    height: 8vh;
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 10%;
+}
+
+
+.p4{
+    height: 100vh;
+    width: 100%;
+    padding: 0 10vh;
+    background-color:#FAF6F0;
+}
+.p4-heading{
+    height: 20vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.p4-heading>h1{
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+swiper-container {
+    width: 100%;
+    height: calc(100% - 20vh);
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-img{
+    height: 50%;
+    width: 60%;
+  }
+swiper-slide>h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+swiper-slide>h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+swiper-slide>h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+swiper-slide>h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+swiper-slide>button{
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 70%;
+}
+.p5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color:#FAF6F0;
+    padding: 5vh 5vh;
+}
+.p5-img{
+    height: 90vh;
+    width: 45vw;
+    background-image: url(https://www.thebruery.com/cdn/shop/files/zane_on_stage_v1_1_1600x.jpg?v=1709645238);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.p5-cont{
+    height: 90vh;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5vh;
+    line-height: 8vh;
+}
+.p5-cont>h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+  
+   
+}
+.p5-cont>h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+.p5-cont>p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 6vh;
+    text-align: center;
+}
+.p5-cont>button{
+    height: 8vh;
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 10%;
+}
+
+.p6{
+    height: 100vh;
+    width: 100%;
+    background-color: #FAF6F0;
+    padding: 0 10vh;
+}
+.p7{
+    height: 100vh;
+    width: 100%;
+    padding: 5vh 0;
+    background-color:#FAF6F0;
+}
+.p7-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.thebruery.com/cdn/shop/files/PreservationSociety_Q4_2022_TheBruery_01_16x9_reszied_for_drop_down_menu_fe236af0-ab7c-4929-aa59-fe290f45757f_1_600x.jpg?v=1692382132);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
